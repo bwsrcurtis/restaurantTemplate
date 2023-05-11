@@ -1,9 +1,9 @@
 'use client';
 import { useState } from 'react';
-import Image from 'next/image';
+// import Image from 'next/image';
 import Link from 'next/link';
-import { BiSun } from 'react-icons/bi';
-import { BiMoon } from 'react-icons/bi';
+// import { BiSun } from 'react-icons/bi';
+// import { BiMoon } from 'react-icons/bi';
 
 const Header = () => {
 	const [dark, setDark] = useState(false);
@@ -18,14 +18,11 @@ const Header = () => {
 	}
 
 	return (
-		<header className='flex justify-between items-center px-12 py-1 relative h-14'>
+		<header className='flex justify-between items-center px-12 fixed w-full z-10
+		py-1 h-14 bg-secondary dark:bg-darkTertiary'>
 			<Link href='/' className='flex items-center space-x-2'>
-				<Image src='/logo.svg' alt="logo" width={50} height={50}
-					className='fill-text dark:fill-darkText'>
-
-				</Image>
-				<h1 className='text-text dark:text-darkText md:text-3xl
-				text-xl leading-none tracking-tight'>Christine&apos;s Bakery</h1>
+				<h1 className='dark:text-darkText text-tertiary
+				text-4xl leading-none tracking-tight font-script'>CB</h1>
 			</Link>
 			<nav className='flex space-x-10 text-lg items-center'>
 				<a
@@ -37,19 +34,19 @@ const Header = () => {
 					About
 				</a>
 				<button
-					className='w-30 z-10 hover:scale-105 hover:bg-tertiary
-					bg-secondary dark:hover:bg-darkTertiary dark:bg-darkPrimary
-					transition delay-100 p-2 border-black border hidden md:inline'>
+					className='w-30 z-10 hover:scale-105 hover:bg-primary rounded-lg bg-tertiary text-darkText
+					dark:hover:bg-darkPrimary dark:bg-darkSecondary dark:text-text
+					transition delay-100 p-2 border border-text dark:border-darkText'>
 					<a href='/#contact'>Get in Touch</a>
 				</button>
-				{dark ? <button className='text-3xl' aria-label='Dark Mode Moon'
+				{/* {dark ? <button className='text-3xl' aria-label='Dark Mode Moon'
 					onClick={() => toggleDark()}>
-					<BiMoon />
+					<BiMoon className='hover:text-primary transition-colors delay-100' />
 				</button> :
 					<button className='text-3xl' aria-label='Light Mode Sun'
 						onClick={() => toggleDark()}>
-						<BiSun />
-					</button>}
+						<BiSun className='hover:text-primary transition-colors delay-100' />
+					</button>} */}
 
 
 			</nav>

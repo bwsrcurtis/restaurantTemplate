@@ -9,7 +9,7 @@
 body {
 	color: rgb(var(--foreground-rgb));
 	overflow-x: hidden;
-	background-color: #bababa;
+	background-color: #aaaba8;
 	min-height: 100%;
 	box-sizing: border-box;
 }

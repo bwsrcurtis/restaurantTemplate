@@ -9,21 +9,25 @@ module.exports = {
   theme: {
     colors: {
       'text': '#000000',
-      'background': '#bababa',
-      'primary': '#94a8b3',
-      'secondary': '#dcd3c9',
-      'tertiary': '#dedcde',
+      'background': '#AAABA8',
+      'primary': '#E8BA40',
+      'secondary': '#DED4E8',
+      'tertiary': '#C7395F',
 
       'darkText': '#ffffff',
       'darkBackground': '#2e3440',
-      'darkPrimary': '#8c6a57',
-      'darkSecondary': '#42648a',
-      'darkTertiary': '#7b8f7b',
+      'darkPrimary': '#E8BA40',
+      'darkSecondary': '#DED4E8',
+      'darkTertiary': '#C7395F',
 
     },
     extend: {
       transitionProperty: {
         'width': 'width'
+      },
+      fontFamily: {
+        'script': 'var(--font-script)',
+        'body': 'var(--font-text)',
       }
     },
   },
