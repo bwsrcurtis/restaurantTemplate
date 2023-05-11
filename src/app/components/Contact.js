@@ -3,7 +3,7 @@ import Form from './Form.js';
 
 const Contact = () => {
   return (
-    <div className="w-full h-fit px-12 py-12 mx-0 text-left lg:flex gap-12 bg-secondary">
+    <div className="w-full h-fit px-12 py-12 mx-0 text-left lg:flex bg-secondary">
       <div className='w-full lg:w-1/2 lg:pr-32 pb-8'>
         <div className='pb-4'>
           <p className='pb-4 text-3xl text-tertiary'>HOURS:</p>
@@ -29,7 +29,7 @@ const Contact = () => {
           <p>CHRISTINESBAKERY@EMAIL.COM</p>
         </div>
       </div>
-      <div className='w-full lg:w-1/2'><Form></Form></div>
+      <div className='w-full lg:w-2/3 lg:justify-self-center'><Form></Form></div>
     </div>
   );
 };

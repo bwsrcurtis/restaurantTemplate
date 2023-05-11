@@ -2,7 +2,7 @@ import React from 'react';
 
 const Menu = () => {
   return (
-    <div className="w-full h-fit px-12 py-12 mx-0 text-left lg:flex gap-12 bg-secondary">
+    <div id="menu" className="w-full h-fit px-12 py-12 mx-0 text-left lg:flex gap-12 bg-secondary">
       <div className='w-full lg:w-1/3'>
         <h2 className='text-tertiary text-xl pb-6'>Cupcakes</h2>
         <p className='text-text/75 text-lg pb-1'>

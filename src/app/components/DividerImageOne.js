@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image.js';
 
-const DividerImage = () => {
+const DividerImageOne = () => {
   return (
     <>
       <div className="w-screen h-[375px] relative">
@@ -16,4 +16,4 @@ const DividerImage = () => {
   );
 };
 
-export default DividerImage;
+export default DividerImageOne;
