@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--foreground-rgb: #000000;
+}
+
+body {
+	color: rgb(var(--foreground-rgb));
+	overflow-x: hidden;
+	background-color: #bababa;
+	min-height: 100%;
+	box-sizing: border-box;
+}
