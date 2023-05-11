@@ -6,7 +6,7 @@ const Form = () => {
       <form
         name='contact'
         id='contact'
-        className='mx-auto w-full lg:px-16'
+        className='mx-auto w-full'
         action='/success'
         method='POST'
         data-netlify='true'

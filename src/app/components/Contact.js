@@ -21,7 +21,7 @@ const Contact = () => {
           </div>
         </div>
         <div className='pb-4 text-md lg:text-2xl text-tertiary'>
-          <p>128 SALISBURY AVE</p>
+          <p>888 SALISBURY AVE</p>
           <p>SALISBURY, MD 21860</p>
           <p>888-888-8888</p>
         </div>
@@ -29,7 +29,7 @@ const Contact = () => {
           <p>CHRISTINESBAKERY@EMAIL.COM</p>
         </div>
       </div>
-      <div className='w-full lg:w-2/3 lg:justify-self-center'><Form></Form></div>
+      <div className='w-full lg:w-2/3 lg:px-32 lg:justify-self-center'><Form></Form></div>
     </div>
   );
 };
