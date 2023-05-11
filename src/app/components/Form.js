@@ -6,7 +6,7 @@ const Form = () => {
       <form
         name='contact'
         id='contact'
-        className='mx-auto w-[50%] md:w-[40%] lg:w-[30%] mb-32'
+        className='mx-auto w-full lg:px-16'
         action='/success'
         method='POST'
         data-netlify='true'
@@ -22,25 +22,24 @@ const Form = () => {
           placeholder='Jane Smith'
           className='w-full border-solid border-2 text-lg px-2
         border-background dark:border-darkBackground mb-4 dark:placeholder:text-darkPrimary
-        text-text dark:text-darkText placeholder:text-primary/75'></input>
+        text-text dark:text-darkText placeholder:text-text/50'></input>
         <p className='mb-1 text-xl'>Your Email</p>
         <input type='email'
           name='Email'
           placeholder='jane@example.com'
           className='w-full border-solid border-2 text-lg px-2
         border-background dark:border-darkBackground mb-4 dark:placeholder:text-darkPrimary
-        text-text dark:text-darkText placeholder:text-primary/75'></input>
+        text-text dark:text-darkText placeholder:text-text/50'></input>
         <p className='mb-1 text-xl'>Message</p>
         <textarea type='textarea' name='Message'
           className='w-full h-48 border-solid border-2 resize-none text-lg px-2
         border-background dark:border-darkBackground mb-4 dark:placeholder:text-darkPrimary
-        text-text dark:text-darkText placeholder:text-primary/75'
+        text-text dark:text-darkText placeholder:text-text/50'
           placeholder='Your Message'></textarea>
         <button type='submit'
-          className='w-full h-12 text-xl transition delay-100 hover:scale-105
-        hover:bg-secondary bg-primary
-        dark:hover:bg-darkTertiary dark:bg-darkPrimary border-black border'>
-          Submit</button>
+          className='w-full z-10 hover:scale-105 hover:bg-primary rounded-lg
+					bg-tertiary text-darkText	transition delay-100 p-2 border border-secondary'>
+          Send a Message</button>
       </form>
     </>
   );
