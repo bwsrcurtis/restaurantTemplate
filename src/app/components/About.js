@@ -25,7 +25,7 @@ const About = () => {
 
         </div>
         <div className='w-full lg:w-1/2 relative'>
-          <Image src='/frosting.jpg' alt='Pink Smeared Frosting' width={500} height={500}
+          <Image src='/squareCupcakes.jpg' alt='Pink Smeared Frosting' width={500} height={500}
             className='w-[46rem] h-auto top-2'
           ></Image>
         </div>
