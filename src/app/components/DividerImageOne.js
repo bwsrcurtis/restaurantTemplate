@@ -10,7 +10,6 @@ const DividerImageOne = () => {
             className='object-cover h-[375px]'
           ></Image>
         </div>
-
       </div>
     </>
   );
