@@ -4,9 +4,8 @@ import Card from './Card.js';
 
 const CardCont = async () => {
   const content = getAllCards('Cards');
-
-
   let cards = Object.values(content);
+
   return (
     <div id='work' className='flex flex-row flex-wrap gap-4 mx-auto justify-center pt-24'>
       {cards.map((i, key) => {
