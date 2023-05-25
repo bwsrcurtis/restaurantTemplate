@@ -9,6 +9,7 @@ import Menu from './components/Menu.js';
 import Contact from './components/Contact.js';
 
 export default async function Home() {
+
   return (
     <>
       <Header />
