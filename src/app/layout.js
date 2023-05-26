@@ -10,6 +10,7 @@ const inter = Inter({ weight: ['variable'], subsets: ['latin'], variable: '--fon
 const dancingScript = Dancing_Script({ weight: ['variable'], subsets: ['latin'], variable: '--font-script' });
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en">
       <body className={`${inter.variable} ${dancingScript.variable} bg-background
