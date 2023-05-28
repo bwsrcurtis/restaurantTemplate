@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 const Card = ({ image, title, description, alt }) => {
   const [showModal, setShowModal] = useState(false);
+
   return (
     <>
       <div className="flex flex-col items-center bg-secondary border-2 border-text
