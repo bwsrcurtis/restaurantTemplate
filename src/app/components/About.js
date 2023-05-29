@@ -1,6 +1,7 @@
 import Image from 'next/image.js';
 
 const About = () => {
+
   return (
     <>
       <div id="about" className="w-full h-fit px-12 py-12 mx-0 text-left bg-secondary
