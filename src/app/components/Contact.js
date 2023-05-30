@@ -2,6 +2,7 @@ import React from 'react';
 import Form from './Form.js';
 
 const Contact = () => {
+
   return (
     <div className="w-full h-fit px-12 py-12 mx-0 text-left lg:flex bg-secondary">
       <div className='w-full lg:w-1/2 lg:pr-32 pb-8'>
