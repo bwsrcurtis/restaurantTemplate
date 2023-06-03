@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image.js';
 
 const DividerImageTwo = () => {
+
   return (
     <>
       <div className="w-screen h-[400px] relative">
