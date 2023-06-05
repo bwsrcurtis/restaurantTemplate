@@ -5,9 +5,6 @@ import Link from 'next/link';
 const Header = () => {
 	const [dark, setDark] = useState(false);
 
-
-
-
 	// function toggleDark() {
 	// 	let html = document.getElementsByTagName('HTML')[0];
 	// 	html.classList.toggle('dark');
