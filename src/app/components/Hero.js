@@ -1,6 +1,7 @@
 import Image from 'next/image.js';
 
 const Hero = () => {
+
   return (
     <>
       <div className="w-screen h-[860px] relative">
