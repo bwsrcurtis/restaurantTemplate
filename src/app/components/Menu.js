@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Menu = () => {
+
   return (
     <div id="menu" className="w-full h-fit px-12 py-12 mx-0 text-left lg:flex gap-12 bg-secondary">
       <div className='w-full lg:w-1/3'>
